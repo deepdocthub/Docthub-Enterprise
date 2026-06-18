@@ -1,0 +1,4 @@
+This is a dummy brochure file for testing automated file uploads.
+It contains placeholder text to simulate a real document.
+Institute Name: Demo Institute
+Course: Advanced Tech Masterclass
