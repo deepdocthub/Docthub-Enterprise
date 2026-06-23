@@ -107,7 +107,11 @@ SELECTORS = {
     "subcommittee_save_button":      [(By.XPATH, "/html/body/div[3]/div[3]/div[3]/button[2]")],
 
     # Add Designation inside Sub-Committee
-    "subcommittee_add_designation_button": [(By.XPATH, "/html/body/div[2]/main/section/main/div[3]/div[2]/button")],
+    "subcommittee_add_designation_button": [
+        (By.XPATH, "/html/body/div[2]/main/section/main/div[3]/div[2]/button"),
+        (By.XPATH, "//button[contains(normalize-space(),'Add Designation') or contains(normalize-space(),'Designation') or contains(., 'Add Designation') or contains(., 'Designation') ]"),
+        (By.XPATH, "//button[contains(@aria-label,'Add Designation') or contains(@aria-label,'Designation') ]"),
+    ],
 }
 
 
