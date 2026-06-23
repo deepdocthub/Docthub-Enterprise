@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+"# Docthub-Enterprise" 
+>>>>>>> 2cb89c038e0c971abed13668548c7e7a87b8fb74
 # Docthub-Enterprise
 
 ## Overview
@@ -25,6 +29,7 @@ pip install -r "Docthub Enterprise\Userapp_script\requirements.txt"
 ```
 
 > Note: Some scripts may not have a requirements file. Inspect the individual Python script to determine the required packages.
+<<<<<<< HEAD
 
 ### 2. Node.js setup for `monkey-testing`
 
@@ -84,3 +89,5 @@ npm run test:home
 - `monkey-testing` uses Node.js and Playwright for automated link checks and report generation.
 - Keep the virtual environment activated when running Python scripts from `Docthub Enterprise`.
 
+=======
+>>>>>>> 2cb89c038e0c971abed13668548c7e7a87b8fb74
